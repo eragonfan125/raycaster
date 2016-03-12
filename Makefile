@@ -1,5 +1,6 @@
 CC = gcc
-CFLAGS = -g -Wall -std=gnu99
+CFLAGS = -g -Wall -std=gnu99 -O3
+
 LDLIBS = -lm -lncurses
 C_FILES = $(wildcard src/*.c)
 H_FILES = $(wildcard src/*.h)
